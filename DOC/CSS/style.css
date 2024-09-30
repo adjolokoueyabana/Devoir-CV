@@ -22,7 +22,6 @@ body{
 
 #section1{
     height: 27%;
-    border-bottom: 1px solid bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,6 +84,70 @@ figure{
     right: 25px;
 }
 
-
+/* Divers */
+#section2{
+    height: 62%;
+    width: 324px;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+}
+#divers1{
+    width: 95%;
+    height: 5%;
+    background-color: rgb(235, 218, 194);
+    position: absolute;
+    top: 6%;
+    left: 0;
+    padding-left: 7%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#tabulation1{
+    box-sizing: border-box;
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    top: 13%;
+    text-align: justify;
+    text-indent: 40px;
+    padding-left: 7%;
+    font-family: "Relaway", serif;
+}
+#divers2{
+    width: 95%;
+    height: 5%;
+    background-color: rgb(235, 218, 194);
+    position: absolute;
+    top: 57%;
+    left: 0;
+    padding-left: 7%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#langues{
+    color: aliceblue;
+    position: absolute;
+    top: 61%;
+    font-family: "Relaway", serif;
+}
+#divers3{
+    width: 95%;
+    height: 5%;
+    background-color: rgb(235, 218, 194);
+    position: absolute;
+    top: 78%;
+    left: 0;
+    padding-left: 7%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#loisir{
+    color: aliceblue;
+    position: absolute;
+    top: 82%;
+    font-family: "Relaway", serif;
+}
 
 
