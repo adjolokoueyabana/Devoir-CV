@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 #global{
-    border-right: 2px solid rgb(248, 224, 9);
+    border-right: 1px solid black;
     background-color: #782221;
     width: 1160px;
     height: 850px;
@@ -96,10 +96,9 @@ figure{
 #divers1{
     width: 95%;
     height: 5%;
-    background-color: rgb(235, 218, 194);
+    background-color: #dbc2a4;
     position: absolute;
-    top: 6%;
-    left: 0;
+    top: 5%;
     padding-left: 7%;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -118,7 +117,7 @@ figure{
 #divers2{
     width: 95%;
     height: 5%;
-    background-color: rgb(235, 218, 194);
+    background-color: #dbc2a4;
     position: absolute;
     top: 57%;
     left: 0;
@@ -135,7 +134,7 @@ figure{
 #divers3{
     width: 95%;
     height: 5%;
-    background-color: rgb(235, 218, 194);
+    background-color: #dbc2a4;
     position: absolute;
     top: 78%;
     left: 0;
@@ -148,6 +147,107 @@ figure{
     position: absolute;
     top: 82%;
     font-family: "Relaway", serif;
+}
+
+/* Mes contacts */
+#section3{
+    height: 72%;
+    width: 788px;
+    background-color: rgb(250, 238, 220);
+    position: absolute;
+    top: 31%;
+    left: 37%;
+    display: flex;
+    flex-direction: column;
+}
+/* Expériences pro */
+#info1{
+    width: 742px;
+    height: 3%;
+    background-color: #dbc2a4;
+    border-left: 3px solid rgb(124, 34, 34);
+    position: absolute;
+    top: 33%;
+    left: 38%;
+    padding-left: 1%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#poste1{
+    width: 758px;
+    height: 13%;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    font-family: "Relaway", serif;
+}
+#mission1{
+    position: absolute;
+    top: 27px;
+}
+#poste2{
+    width: 758px;
+    height: 13%;
+    position: absolute;
+    top: 53%;
+    left: 38%;
+    font-family: "Relaway", serif;
+}
+#mission2{
+    position: absolute;
+    top: 27px;
+}
+
+/* Diplômes */
+#info2{
+    width: 742px;
+    height: 3%;
+    background-color: #dbc2a4;
+    border-left: 3px solid rgb(124, 34, 34);
+    position: absolute;
+    top: 68%;
+    left: 38%;
+    padding-left: 1%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#diplome1{
+    width: 758px;
+    position: absolute;
+    top: 71%;
+    left: 38%;
+    font-family: "Relaway", serif;
+}
+#diplome2{
+    width: 758px;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    font-family: "Relaway", serif;
+}
+
+/* competences */
+#info3{
+    width: 742px;
+    height: 3%;
+    background-color: #dbc2a4;
+    border-left: 3px solid rgb(124, 34, 34);
+    position: absolute;
+    top: 91%;
+    left: 38%;
+    padding-left: 1%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+#competence{
+    width: 718px;
+    position: absolute;
+    top: 93%;
+    left: 38%;
+    font-family: "Relaway", serif;
+}
+#competence:hover, #diplome1:hover, #diplome2:hover, #poste1:hover, #poste2:hover{
+    border-right: 6px solid rgb(124, 34, 34);
 }
 
 
