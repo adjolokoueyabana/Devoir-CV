@@ -27,8 +27,7 @@ body{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    color: aliceblue;
-    
+    color: aliceblue;  
 }
 
 figure{
@@ -248,6 +247,52 @@ figure{
 }
 #competence:hover, #diplome1:hover, #diplome2:hover, #poste1:hover, #poste2:hover{
     border-right: 6px solid rgb(124, 34, 34);
+}
+
+/* Liens réeaux sociaux */
+#section4{
+    height: 60px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 794px;
+}
+#reseau1:hover, #reseau2:hover, #reseau3:hover{
+    opacity: 0.70;   
+}
+#reseau1{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: -12px;
+    left: 28px;
+}
+#reseau2{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: -12px;
+    left: 88px;
+}
+#reseau3{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: -12px;
+    left: 138px;
+}
+#reseau4{
+    font-family: "Relaway", serif;
+    color: aliceblue;
+    position: absolute;
+    top: 26px;
+    margin-left: 20px;
+}
+#imag1, #imag2, #imag3{
+    width: 100%;
+    height: 100%;
 }
 
 
